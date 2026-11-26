@@ -1,0 +1,445 @@
+{
+  "target_per_year": 1500,
+  "calibration": {
+    "2019": {
+      "ours": 0.32066666666666666,
+      "published_confirmed": 0.324190894130554,
+      "published_suspected": 0.3258365331870543,
+      "gap_points_vs_confirmed": -0.3524227463887364,
+      "gap_points_vs_suspected": -0.5169866520387645,
+      "overlap_n": 1166,
+      "overlap_share_of_our_sample": 0.7773333333333333,
+      "ours_rate_on_overlap": 0.33704974271012006
+    },
+    "2020": {
+      "ours": 0.30333333333333334,
+      "published_confirmed": 0.3139901034637877,
+      "published_suspected": 0.3180386864597391,
+      "gap_points_vs_confirmed": -1.0656770130454352,
+      "gap_points_vs_suspected": -1.4705353126405751,
+      "overlap_n": 1061,
+      "overlap_share_of_our_sample": 0.7073333333333334,
+      "ours_rate_on_overlap": 0.31856738925541944
+    },
+    "decision": "GO",
+    "largest_gap_points": 1.0656770130454352
+  },
+  "trend_broad": {
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "odds_ratio_per_year": 0.8933486815171541,
+    "or_ci_low": 0.8737404305476101,
+    "or_ci_high": 0.9133969756535727,
+    "p_trend": 2.2837324254160898e-23,
+    "nonlinearity_lr": 1.3737351733798278,
+    "nonlinearity_df": 5,
+    "nonlinearity_p": 0.9271646578207904
+  },
+  "trend_strict": {
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "odds_ratio_per_year": 0.8991847255364144,
+    "or_ci_low": 0.8784865895993123,
+    "or_ci_high": 0.920370532926152,
+    "p_trend": 3.7586218187562506e-19,
+    "nonlinearity_lr": 3.0482778131809027,
+    "nonlinearity_df": 5,
+    "nonlinearity_p": 0.6925428247656898
+  },
+  "publisher_adjusted": {
+    "crude_or": 0.5744451626803221,
+    "crude_ci": [
+      0.5108287960292347,
+      0.6459840312290003
+    ],
+    "crude_p": 2.097233898413908e-20,
+    "adjusted_or": 0.5772023839559893,
+    "adjusted_ci": [
+      0.5113360155869432,
+      0.6515531507438463
+    ],
+    "adjusted_p": 6.121680954018773e-19,
+    "publishers_in_model": 13,
+    "publisher_mix": [
+      {
+        "pub": "bmc",
+        "share_before": 0.1637,
+        "share_after": 0.1463
+      },
+      {
+        "pub": "cold spring harbor laboratory preprints",
+        "share_before": 0.001,
+        "share_after": 0.0687
+      },
+      {
+        "pub": "cold spring harbor laboratory press",
+        "share_before": 0.021,
+        "share_after": 0.0087
+      },
+      {
+        "pub": "elife sciences publications, ltd",
+        "share_before": 0.018,
+        "share_after": 0.0093
+      },
+      {
+        "pub": "elsevier",
+        "share_before": 0.0267,
+        "share_after": 0.0613
+      },
+      {
+        "pub": "frontiers media sa",
+        "share_before": 0.1053,
+        "share_after": 0.0757
+      },
+      {
+        "pub": "multidisciplinary digital publishing institute  (mdpi)",
+        "share_before": 0.09,
+        "share_after": 0.0867
+      },
+      {
+        "pub": "nature publishing group",
+        "share_before": 0.19,
+        "share_after": 0.1713
+      },
+      {
+        "pub": "other",
+        "share_before": 0.1147,
+        "share_after": 0.1363
+      },
+      {
+        "pub": "oxford university press",
+        "share_before": 0.06,
+        "share_after": 0.0593
+      },
+      {
+        "pub": "plos",
+        "share_before": 0.0637,
+        "share_after": 0.031
+      },
+      {
+        "pub": "unknown",
+        "share_before": 0.1017,
+        "share_after": 0.1073
+      },
+      {
+        "pub": "wiley",
+        "share_before": 0.0443,
+        "share_after": 0.038
+      }
+    ]
+  },
+  "diff_of_changes_renamed_vs_other": {
+    "diff_of_changes_points": -3.533333333333334,
+    "ci_low": -5.733333333333332,
+    "ci_high": -1.3658333333333283
+  },
+  "duplicate_articles_in_sample": 0,
+  "validation": {
+    "flagged": {
+      "labelled": 200,
+      "unlabelled": 0,
+      "ones": 198
+    },
+    "unflagged": {
+      "labelled": 200,
+      "unlabelled": 0,
+      "ones": 0
+    },
+    "ppv": {
+      "value": 0.99,
+      "ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "n": 200
+    },
+    "decision": "GO",
+    "miss_rate": {
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.018846005918320894
+      ],
+      "n": 200
+    }
+  },
+  "calibration_original_articles": {
+    "n_sampled": 500,
+    "status": {
+      "scanned": 496,
+      "not_open_access": 2,
+      "not_found": 2
+    },
+    "n_scanned": 496,
+    "gene_list_found_share": 0.9879032258064516,
+    "n_both_found_gene_list": 490,
+    "vs": {
+      "orig_suspected": {
+        "orig_rate": 0.3551020408163265,
+        "ours_rate": 0.35918367346938773,
+        "agreement": 0.9959183673469387,
+        "kappa": 0.991111272357871,
+        "ours_flags_orig_positive": 1.0,
+        "ours_flags_orig_negative": 0.006329113924050633,
+        "table": {
+          "orig_suspected=0,ours=0": 314,
+          "orig_suspected=0,ours=1": 2,
+          "orig_suspected=1,ours=0": 0,
+          "orig_suspected=1,ours=1": 174
+        }
+      },
+      "orig_confirmed": {
+        "orig_rate": 0.35306122448979593,
+        "ours_rate": 0.35918367346938773,
+        "agreement": 0.9938775510204082,
+        "kappa": 0.9866501988847922,
+        "ours_flags_orig_positive": 1.0,
+        "ours_flags_orig_negative": 0.00946372239747634,
+        "table": {
+          "orig_confirmed=0,ours=0": 314,
+          "orig_confirmed=0,ours=1": 3,
+          "orig_confirmed=1,ours=0": 0,
+          "orig_confirmed=1,ours=1": 173
+        }
+      }
+    },
+    "by_year": {
+      "2019": {
+        "n": 246,
+        "orig_confirmed_rate": 0.36585365853658536,
+        "orig_suspected_rate": 0.36585365853658536,
+        "ours_rate": 0.37398373983739835
+      },
+      "2020": {
+        "n": 244,
+        "orig_confirmed_rate": 0.3401639344262295,
+        "orig_suspected_rate": 0.3442622950819672,
+        "ours_rate": 0.3442622950819672
+      }
+    }
+  },
+  "precision": {
+    "n_per_year_min": 1500,
+    "overall_rate": 0.25561904761904763,
+    "ci_half_width_points_per_year": 2.2075201367983874
+  },
+  "eligible_per_year": {
+    "2019": 1500,
+    "2020": 1500,
+    "2021": 1500,
+    "2022": 1500,
+    "2023": 1500,
+    "2024": 1500,
+    "2025": 1500
+  },
+  "years_missing": [],
+  "download_decision": "GO",
+  "before_after_broad": {
+    "before_k": 936,
+    "before_n": 3000,
+    "before_rate": 0.312,
+    "after_k": 620,
+    "after_n": 3000,
+    "after_rate": 0.20666666666666667,
+    "diff_points": -10.533333333333333,
+    "diff_ci_low": -12.728063816883445,
+    "diff_ci_high": -8.325429979950965,
+    "p_value": 1.3083302894037136e-20,
+    "comparison": "any error (broad)",
+    "small_count_note": ""
+  },
+  "before_after_all": [
+    {
+      "before_k": 936,
+      "before_n": 3000,
+      "before_rate": 0.312,
+      "after_k": 620,
+      "after_n": 3000,
+      "after_rate": 0.20666666666666667,
+      "diff_points": -10.533333333333333,
+      "diff_ci_low": -12.728063816883445,
+      "diff_ci_high": -8.325429979950965,
+      "p_value": 1.3083302894037136e-20,
+      "comparison": "any error (broad)",
+      "small_count_note": ""
+    },
+    {
+      "before_k": 797,
+      "before_n": 3000,
+      "before_rate": 0.26566666666666666,
+      "after_k": 534,
+      "after_n": 3000,
+      "after_rate": 0.178,
+      "diff_points": -8.766666666666667,
+      "diff_ci_low": -10.85310004605676,
+      "diff_ci_high": -6.671613115544038,
+      "p_value": 3.049383851806806e-16,
+      "comparison": "dates only (strict)",
+      "small_count_note": ""
+    },
+    {
+      "before_k": 684,
+      "before_n": 3000,
+      "before_rate": 0.228,
+      "after_k": 434,
+      "after_n": 3000,
+      "after_rate": 0.14466666666666667,
+      "diff_points": -8.333333333333334,
+      "diff_ci_low": -10.29036084877901,
+      "diff_ci_high": -6.3712046131377,
+      "p_value": 1.149856835449873e-16,
+      "comparison": "renamed human genes",
+      "small_count_note": ""
+    },
+    {
+      "before_k": 464,
+      "before_n": 3000,
+      "before_rate": 0.15466666666666667,
+      "after_k": 320,
+      "after_n": 3000,
+      "after_rate": 0.10666666666666667,
+      "diff_points": -4.8,
+      "diff_ci_low": -6.503730736969909,
+      "diff_ci_high": -3.0980939759843578,
+      "p_value": 3.480356814326843e-08,
+      "comparison": "other types merged",
+      "small_count_note": ""
+    },
+    {
+      "before_k": 158,
+      "before_n": 3000,
+      "before_rate": 0.05266666666666667,
+      "after_k": 99,
+      "after_n": 3000,
+      "after_rate": 0.033,
+      "diff_points": -1.9666666666666666,
+      "diff_ci_low": -3.0034003164399263,
+      "diff_ci_high": -0.9444940094199987,
+      "p_value": 0.00016893014299829877,
+      "comparison": "other human symbols",
+      "small_count_note": ""
+    },
+    {
+      "before_k": 142,
+      "before_n": 3000,
+      "before_rate": 0.04733333333333333,
+      "after_k": 104,
+      "after_n": 3000,
+      "after_rate": 0.034666666666666665,
+      "diff_points": -1.2666666666666666,
+      "diff_ci_low": -2.2807741073819328,
+      "diff_ci_high": -0.262462327913472,
+      "p_value": 0.013367180961847363,
+      "comparison": "mouse symbols",
+      "small_count_note": ""
+    },
+    {
+      "before_k": 199,
+      "before_n": 3000,
+      "before_rate": 0.06633333333333333,
+      "after_k": 128,
+      "after_n": 3000,
+      "after_rate": 0.042666666666666665,
+      "diff_points": -2.3666666666666663,
+      "diff_ci_low": -3.524886832323287,
+      "diff_ci_high": -1.2206742072394223,
+      "p_value": 5.401319539913387e-05,
+      "comparison": "other forms",
+      "small_count_note": ""
+    }
+  ],
+  "sensitivity": [
+    {
+      "before_k": 936,
+      "before_n": 3000,
+      "before_rate": 0.312,
+      "after_k": 620,
+      "after_n": 3000,
+      "after_rate": 0.20666666666666667,
+      "diff_points": -10.533333333333333,
+      "diff_ci_low": -12.728063816883445,
+      "diff_ci_high": -8.325429979950965,
+      "p_value": 1.3083302894037136e-20,
+      "comparison": "all eligible (primary)"
+    },
+    {
+      "before_k": 555,
+      "before_n": 1842,
+      "before_rate": 0.30130293159609123,
+      "after_k": 363,
+      "after_n": 1918,
+      "after_rate": 0.18925964546402502,
+      "diff_points": -11.204328613206622,
+      "diff_ci_low": -13.927347459964896,
+      "diff_ci_high": -8.464999211642523,
+      "p_value": 1.3075482798294517e-15,
+      "comparison": "human-only files"
+    },
+    {
+      "before_k": 152,
+      "before_n": 511,
+      "before_rate": 0.2974559686888454,
+      "after_k": 82,
+      "after_n": 365,
+      "after_rate": 0.22465753424657534,
+      "diff_points": -7.279843444227005,
+      "diff_ci_low": -12.997377834109706,
+      "diff_ci_high": -1.3470410697150381,
+      "p_value": 0.016420762482988942,
+      "comparison": "journals of the 2016 study (all 18)"
+    },
+    {
+      "before_k": 797,
+      "before_n": 3000,
+      "before_rate": 0.26566666666666666,
+      "after_k": 534,
+      "after_n": 3000,
+      "after_rate": 0.178,
+      "diff_points": -8.766666666666667,
+      "diff_ci_low": -10.85310004605676,
+      "diff_ci_high": -6.671613115544038,
+      "p_value": 3.049383851806806e-16,
+      "comparison": "dates only (strict)"
+    },
+    {
+      "before_k": 936,
+      "before_n": 3000,
+      "before_rate": 0.312,
+      "after_k": 301,
+      "after_n": 1500,
+      "after_rate": 0.20066666666666666,
+      "diff_points": -11.133333333333335,
+      "diff_ci_low": -13.707275576994302,
+      "diff_ci_high": -8.471499063016767,
+      "p_value": 3.1479257367901284e-15,
+      "comparison": "2025 only vs 2019-2020"
+    },
+    {
+      "before_k": 807,
+      "before_n": 2493,
+      "before_rate": 0.3237063778580024,
+      "after_k": 518,
+      "after_n": 2430,
+      "after_rate": 0.21316872427983538,
+      "diff_points": -11.0537653578167,
+      "diff_ci_low": -13.497788170614708,
+      "diff_ci_high": -8.590257727565184,
+      "p_value": 2.2918274909784465e-18,
+      "comparison": "Excel files attached directly (zips ignored)"
+    }
+  ]
+}

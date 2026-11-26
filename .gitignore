@@ -1,0 +1,7 @@
+data/
+*.sqlite
+__pycache__/
+.pytest_cache/
+output_pilot/
+KILL_CHECK.md
+DECISION_LOG.md

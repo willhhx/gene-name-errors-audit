@@ -1,0 +1,29 @@
+{
+  "flagged": {
+    "labelled": 200,
+    "unlabelled": 0,
+    "ones": 198
+  },
+  "unflagged": {
+    "labelled": 200,
+    "unlabelled": 0,
+    "ones": 0
+  },
+  "ppv": {
+    "value": 0.99,
+    "ci95": [
+      0.9642775148038205,
+      0.9972533993962251
+    ],
+    "n": 200
+  },
+  "decision": "GO",
+  "miss_rate": {
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.018846005918320894
+    ],
+    "n": 200
+  }
+}

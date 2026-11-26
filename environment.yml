@@ -1,0 +1,7 @@
+name: excel_gene_errors
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements-dev.txt
